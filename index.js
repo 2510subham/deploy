@@ -8,6 +8,6 @@ app.get('/', (req, res) => {
 app.get("/post", (req, res) => {
     res.status(200).json({ title: "Post 1", content: "This is my first post" })
 });
-app.listen(port, () => {
+app.listen(3000, () => {
     console.log(`Server is running on port ${port}`);
 });
