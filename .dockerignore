@@ -1,0 +1,4 @@
+/node_modules
+/dotenv_example
+/Dockerfile
+/.env
