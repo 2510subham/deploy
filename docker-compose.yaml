@@ -1,0 +1,7 @@
+version: '3.6'
+
+services:
+  deployment:
+    image: deployment
+    container_name: deploy_check
+    build: ./
