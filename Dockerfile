@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:lts-bullseye-slim
 RUN apk update && apk add tzdata
 ENV TZ=Asia/Kolkata
 WORKDIR /
