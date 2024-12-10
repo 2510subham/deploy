@@ -1,4 +1,4 @@
-FROM node:lts-bullseye-slim
+FROM node:lts-alpine3.21
 ENV TZ=Asia/Kolkata
 WORKDIR /
 COPY ./package.json .
